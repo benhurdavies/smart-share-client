@@ -4,7 +4,6 @@ import {
   makeStyles,
   Card,
   CardContent,
-  Typography,
   CardActions,
   CardHeader,
 } from "@material-ui/core";

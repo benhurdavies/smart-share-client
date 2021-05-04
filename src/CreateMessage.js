@@ -1,4 +1,4 @@
-import { Paper, makeStyles, TextField, Button } from "@material-ui/core";
+import { makeStyles, TextField, Button } from "@material-ui/core";
 import { Send } from "@material-ui/icons";
 
 const buttonWidth = 150;
