@@ -7,7 +7,6 @@ let socket;
 function connect({ userName, room }) {
   socket = io(REACT_APP_SERVER_URL, {
     autoConnect: false,
-    transports: ["websocket"],
     query: { userName, room },
   });
   socket.connect();
